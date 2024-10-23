@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Shadow layer -->
+    <item>
+        <shape android:shape="oval">
+            <!-- Change the alpha in the color to adjust opacity -->
+            <solid android:color="#22000000" /> <!-- Adjusted shadow color (20% opacity) -->
+            <size android:width="300dp" android:height="300dp"/> <!-- Same size as circle -->
+            <padding android:left="3dp" android:right="4dp"
+                android:bottom="7dp"/> <!-- Shift shadow down -->
+        </shape>
+    </item>
+
+    <!-- Gradient circle -->
+    <item>
+        <shape android:shape="oval">
+            <gradient
+                android:startColor="#7B1FA2"
+                android:endColor="#BA68C8"
+                android:angle="270"/>
+        </shape>
+    </item>
+</layer-list>

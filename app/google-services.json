@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "272679633882",
+    "project_id": "uts-lab-map-m-ravindra",
+    "storage_bucket": "uts-lab-map-m-ravindra.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:272679633882:android:92e4df67a6bd1e1141f6e3",
+        "android_client_info": {
+          "package_name": "com.example.uts_lab_map"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDbFMceo2dd5TYRvmJtxIDm9lWJ5tMc984"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
