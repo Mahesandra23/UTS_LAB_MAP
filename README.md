@@ -1,12 +1,8 @@
-Berikut contoh isi README yang bisa kamu gunakan untuk proyek UTS aplikasi mobile absen berbasis Kotlin:
-
----
-
-# 📸 Aplikasi Absensi Mahasiswa – UTS Mobile Programming
+## 📸 Aplikasi Absensi Mahasiswa – UTS Mobile Programming
 
 Aplikasi Absensi ini merupakan proyek Ujian Tengah Semester (UTS) untuk mata kuliah **Mobile Programming**, dibuat menggunakan **Kotlin** dan ditujukan untuk platform **Android**. Aplikasi ini memungkinkan pengguna melakukan absensi harian dengan foto sebagai bukti kehadiran.
 
-## 📱 Fitur Aplikasi
+### 📱 Fitur Aplikasi
 
 * **Login Autentikasi**
 
@@ -25,7 +21,7 @@ Aplikasi Absensi ini merupakan proyek Ujian Tengah Semester (UTS) untuk mata kul
 
   * Pengguna dapat mengubah data pribadi dan mengganti foto profil.
 
-## ☁️ Teknologi yang Digunakan
+### ☁️ Teknologi yang Digunakan
 
 * **Bahasa Pemrograman:** Kotlin
 * **Platform:** Android
