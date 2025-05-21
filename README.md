@@ -1,28 +1,32 @@
-## 📸 Aplikasi Absensi Mahasiswa – UTS Mobile Programming
+## 📸 Attendance App – Midterm Project (Mobile Programming)
 
-Aplikasi Absensi ini merupakan proyek Ujian Tengah Semester (UTS) untuk mata kuliah **Mobile Programming**, dibuat menggunakan **Kotlin** dan ditujukan untuk platform **Android**. Aplikasi ini memungkinkan pengguna melakukan absensi harian dengan foto sebagai bukti kehadiran.
+This is a **Mobile Attendance Application** developed using **Kotlin** for Android as part of the **Midterm Project** in the **Mobile Programming** course. The app allows users to mark their daily attendance by taking a photo as proof.
 
-### 📱 Fitur Aplikasi
+### Features
 
-* **Login Autentikasi**
+* **Login Authentication**
 
-  * Login berbasis email dan password untuk mengakses aplikasi.
+  * Secure login using email and password.
 
-* **Absensi Harian**
+* **Daily Attendance**
 
-  * Pengguna dapat melakukan absensi sekali sehari dengan mengunggah foto sebagai bukti kehadiran.
-  * Sistem akan mencegah absensi lebih dari satu kali per hari.
+  * Users can mark attendance once per day by capturing a photo as proof.
+  * The app prevents multiple check-ins on the same day.
 
-* **Histori Absensi**
+* **Attendance History**
 
-  * Menampilkan riwayat absensi lengkap pengguna berdasarkan tanggal.
+  * View a complete history of attendance by date.
 
-* **Pengaturan Akun**
+* **User Settings**
 
-  * Pengguna dapat mengubah data pribadi dan mengganti foto profil.
+  * Edit personal information and change profile photo.
 
-### ☁️ Teknologi yang Digunakan
+### Technologies Used
 
-* **Bahasa Pemrograman:** Kotlin
+* **Language:** Kotlin
 * **Platform:** Android
-* **Database & Autentikasi:** Firebase (Firestore, Firebase Auth, dan Firebase Storage)
+* **Backend:** Firebase
+
+  * **Authentication** (Firebase Auth)
+  * **Cloud Firestore** (for attendance data)
+  * **Firebase Storage** (for photos)
